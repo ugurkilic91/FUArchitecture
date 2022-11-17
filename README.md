@@ -1,10 +1,10 @@
 # FUArchitecture
-##### _Kullanılacak teknoloji ve kütüphaneler_
+### _Kullanılacak teknoloji ve kütüphaneler_
 - DDD veya TDD.
 - log için serilog ve elasticsearch
 - veritabanı postgre(docker),mongo(docker)
 
-##### _Planlanan Docker Hublar_
+### _Planlanan Docker Hublar_
 - Postgresql
 - mongo
 - kibana
@@ -15,7 +15,7 @@
 - kong
 - logstash
 
-##### _Planlanan Nuget Paketleri_
+### _Planlanan Nuget Paketleri_
 - AutoMapper 
 - Newtonsoft.Json
 - Castle.Core 
