@@ -24,6 +24,7 @@
 - Ef
 - Dapper
 - nswag
+- Humanizer
 
 
 
