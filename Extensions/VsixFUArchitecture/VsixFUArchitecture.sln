@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUArchitecture", "FUArchite
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppVsixTest", "ConsoleAppVsixTest\ConsoleAppVsixTest.csproj", "{56E42E2E-81D3-4134-BC29-B571AB7B70AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationVsixTest", "WebApplicationVsixTest\WebApplicationVsixTest.csproj", "{BC95E836-BFB9-49DD-A3C0-5F819AFBFD04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{56E42E2E-81D3-4134-BC29-B571AB7B70AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56E42E2E-81D3-4134-BC29-B571AB7B70AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56E42E2E-81D3-4134-BC29-B571AB7B70AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC95E836-BFB9-49DD-A3C0-5F819AFBFD04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC95E836-BFB9-49DD-A3C0-5F819AFBFD04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC95E836-BFB9-49DD-A3C0-5F819AFBFD04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC95E836-BFB9-49DD-A3C0-5F819AFBFD04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
