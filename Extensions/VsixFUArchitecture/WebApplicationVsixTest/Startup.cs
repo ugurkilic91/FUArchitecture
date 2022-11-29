@@ -12,6 +12,7 @@ namespace WebApplicationVsixTest
 {
     public class Startup
     {
+        //FUArchitecture Web
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
