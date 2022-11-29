@@ -49,6 +49,14 @@
     <Compile Include="FUArchitecturePackage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ProjectTemplates\ConsoleAppVsixTest.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="ProjectTemplates\WebApplicationVsixTest.zip">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <None Include="source.extension.vsixmanifest">
       <SubType>Designer</SubType>
     </None>
