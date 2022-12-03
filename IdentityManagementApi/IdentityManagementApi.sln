@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{61D743F8-06A9-4D8C-B7D5-292425DCE0A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A556C230-0AD2-4A57-B11E-15A6779D477A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityManagement.Infrastructure", "IdentityManagement.Infrastructure\IdentityManagement.Infrastructure.csproj", "{5BE69680-40FB-4986-9ABF-528141DF6E3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityManagement.Server", "IdentityManagement.Server\IdentityManagement.Server.csproj", "{F84C8256-F05B-4D71-AD2E-9C5122A0D896}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07075AC0-0779-4EED-9800-34765FF35767}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5BE69680-40FB-4986-9ABF-528141DF6E3A} = {61D743F8-06A9-4D8C-B7D5-292425DCE0A8}
+		{F84C8256-F05B-4D71-AD2E-9C5122A0D896} = {A556C230-0AD2-4A57-B11E-15A6779D477A}
+	EndGlobalSection
+EndGlobal
