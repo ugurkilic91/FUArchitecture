@@ -32,7 +32,12 @@ namespace IdentityManagement.Infrastructure.Extensions
                 {
                     options.ConfigureDbContext = builder => builder.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
                     options.EnableTokenCleanup = true;
-                }).AddAspNetIdentity<AppUser>();
+                })
+                .AddConfigurationStore(options =>
+                {
+                    options.ConfigureDbContext = builder => builder.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
+                })
+                .AddAspNetIdentity<AppUser>();
 
 			return service;
 		}
